@@ -1,0 +1,47 @@
+.containerAddNewTask {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.containerAddNewTask input {
+  width: 100%;
+  padding: 1rem;
+
+  background: var(--gray-500);
+  color: var(--gray-300);
+
+  outline: 1px solid var(--gray-700);
+  border: none;
+  border-radius: 8px;
+  line-height: 1.4;
+}
+
+.containerAddNewTask button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  background: var(--blue-dark);
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.4;
+
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+
+  transition: background-color 0.2 s;
+}
+
+.containerAddNewTask button:disabled {
+  opacity: 0.7;
+}
+
+.containerAddNewTask button:not(button:disabled):hover {
+  background: var(--blue);
+}
