@@ -1,0 +1,52 @@
+.taskBoardHeader {
+  margin: 4rem 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+}
+
+.taskBoardHeader div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tasksCreated {
+  color: var(--blue);
+}
+
+.tasksCompleted {
+  color: var(--purple);
+}
+
+.taskBoardHeader .countOfTasks {
+  color: var(--gray-200);
+  background: var(--gray-500);
+  padding: 0.125rem 0.6rem;
+  border-radius: 999px;
+}
+
+.taskBoardEmpty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  padding: 4rem 1.5rem;
+}
+
+.taskBoardEmpty div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.4;
+}
+
+.taskBoard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
